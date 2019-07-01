@@ -5,7 +5,7 @@ class RepositoriesController < ApplicationController
   end
 
   def github_search
-    client_id = "REPLACE ME"
+    client_id = a53ee91e2cd5bcce0721
     secret = "REPLACE ME"
 
     resp = Faraday.get("https://api.github.com/search/repositories") do |req|
